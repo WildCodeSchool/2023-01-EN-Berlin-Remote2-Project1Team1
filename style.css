@@ -1,0 +1,10 @@
+.test {
+    text-align: center;
+    border: 1px solid red;
+    max-width: 400px;
+    max-height: 400px;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+  }
+  
