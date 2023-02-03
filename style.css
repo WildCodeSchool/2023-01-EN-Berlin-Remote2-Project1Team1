@@ -69,7 +69,7 @@ main {
   left: 100px;
 }
 
-.findYourMuse__title {
+.article__title {
   font-size: 2rem;
   padding: 20px;
   margin: 20px;
@@ -78,7 +78,7 @@ main {
   font-weight: 300;
 }
 
-.findYourMuse__title:hover::after {
+.article__title:hover::after {
   display: block;
   content: "";
   width: 60%;
@@ -89,6 +89,7 @@ main {
   right: 20px;
 }
 
+/* THE BUBLE  */
 .circle {
   border: 1px solid rgb(130, 124, 124);
   width: 100px;
@@ -100,15 +101,42 @@ main {
   transition: all 1s ease-in-out;
 }
 
-.findYourMuse__circle {
+.test {
+  border-color: blue;
+  animation: spin 4s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+
+  /* ALMOST THE SAME without % */
+  /* from {
+    transform:rotate(0deg);
+    }
+    to {
+    transform:rotate(360deg);
+    } */
+}
+
+.article__circle {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 40px;
 }
 
-.findYourMuse__circle--html,
-.findYourMuse__circle--js {
+.article__circle--html,
+.article__circle--js {
   display: grid;
   grid-column-start: 1;
   grid-column-end: 3;
