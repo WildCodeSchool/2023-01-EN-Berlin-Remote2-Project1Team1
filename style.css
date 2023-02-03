@@ -145,9 +145,24 @@ h1 {
       gap: 1rem;
       padding: 0.5rem;
   }
-  footer{
-    
-      background-color: #aa998f;
-      width: 100wv;
-      padding: 0.5rem;
+  footer > p {
+    background-color: #aa998f;
   }
+  .wave-bottom {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-bottom svg {
+  display: block;
+  width: calc(113% + 1.3px);
+  height: 25px;
+}
+
+.wave-bottom .shape-fill {
+    fill: #aa998f;
+}
