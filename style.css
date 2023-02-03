@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
- 
 }
 
 body {
@@ -11,7 +9,11 @@ body {
   font-family: sans-serif;
 
 }
-
+nav {
+  position: absolute;
+  right: 10px;
+  z-index: 2;
+}
 .opaque {
   --bg-image: url("assets/trip.jpg");
   --bg-image-opacity: 0.65;
@@ -138,13 +140,14 @@ h1 {
   .kid2 {
     border: 1px solid rgb(107, 9, 227);
   } */ 
-    ul {
+  ul {
       display: flex;
       justify-content: flex-end;
       list-style: none;
       gap: 1rem;
       padding: 0.5rem;
   }
+  
   footer > p {
     background-color: #aa998f;
   }
