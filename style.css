@@ -186,3 +186,12 @@ footer > p {
 .wave-bottom .shape-fill {
   fill: #aa998f;
 }
+
+.swiper {
+  width: 200px;
+  height: 300px;
+}
+
+.swiper-slide {
+  border: solid;
+}
