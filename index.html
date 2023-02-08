@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- swiper links external and internal-->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<link rel="jsstylesheet" href="swiper.js" />
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,7 +53,7 @@
         </div>
       </article>
 
-      <!-- secound -->
+      <!-- second -->
       <article class="youCanGoTheDistance">
         <h2 class="article__title">you can go the distance</h2>
         <div class="article__circle">
@@ -60,7 +66,7 @@
         </div>
       </article>
 
-      <!-- secound -->
+      <!-- second -->
       <div class="EveryMile">
         <h2 class="article__title">Every mile is worth your while</h2>
         <div class="article__circle">
@@ -108,8 +114,27 @@
           </marker>
         </defs>
       </svg>
-    </main>
+      <!-- sliders -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    ...
+  </div>
+ 
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+    </main>
     <footer>
       <div class="wave-bottom">
         <svg
