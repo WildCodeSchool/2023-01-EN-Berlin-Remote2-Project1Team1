@@ -191,3 +191,7 @@ footer > p {
   width: 600px;
   height: 300px;
 }
+
+.swiper-slide {
+  border: solid;
+}
