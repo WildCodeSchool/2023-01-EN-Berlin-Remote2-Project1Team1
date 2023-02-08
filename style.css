@@ -1,3 +1,7 @@
+@import url(./Alisa.css);
+@import url(./Dejan.css);
+@import url(./Sarah.css);
+
 * {
   box-sizing: border-box;
   padding: 0;

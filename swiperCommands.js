@@ -10,5 +10,10 @@ const swiper = new Swiper(".swiper", {
     modifier: 2,
     slideShadows: false,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
   loop: true,
 });
