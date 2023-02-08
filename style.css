@@ -21,7 +21,13 @@ ul {
   gap: 1rem;
   padding: 0.5rem;
 }
-
+.nav__link {
+text-decoration: none;
+color: black;
+}
+.nav__link:hover{
+  color: antiquewhite;
+}
 /* HEADER */
 .opaque {
   --bg-image: url("assets/trip.jpg");
@@ -89,7 +95,7 @@ main {
   right: 20px;
 }
 
-/* THE BUBLE  */
+/* THE BUBBLE  */
 .circle {
   border: 1px solid rgb(130, 124, 124);
   width: 100px;
