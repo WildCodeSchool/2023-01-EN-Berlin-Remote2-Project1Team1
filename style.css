@@ -22,11 +22,11 @@ ul {
   padding: 0.5rem;
 }
 .nav__link {
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
 }
 
-.nav__link:hover{
+.nav__link:hover {
   color: antiquewhite;
 }
 /* HEADER */
@@ -185,4 +185,9 @@ footer > p {
 
 .wave-bottom .shape-fill {
   fill: #aa998f;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
 }

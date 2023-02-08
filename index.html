@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css" />
     <!-- swiper links external and internal-->
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
-<link rel="jsstylesheet" href="swiper.js" />
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="jsstylesheet" href="swiper.js" />
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,13 +20,26 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <nav>
       <ul>
-        <li><a class = "nav__link" href="#findYourMuse">Find your muse</a></li>
-        <li><a class = "nav__link" href="#youCanGoTheDistance">You can go the distance</a></li>
-        <li><a class = "nav__link" href="#EveryMile">Every mile is worth your while</a></li>
+        <li><a class="nav__link" href="#findYourMuse">Find your muse</a></li>
+        <li>
+          <a class="nav__link" href="#youCanGoTheDistance"
+            >You can go the distance</a
+          >
+        </li>
+        <li>
+          <a class="nav__link" href="#EveryMile"
+            >Every mile is worth your while</a
+          >
+        </li>
       </ul>
     </nav>
     <header>
@@ -40,20 +53,20 @@
     </header>
 
     <main>
-      <article class="findYourMuse" id = "findYourMuse">
+      <article class="findYourMuse" id="findYourMuse">
         <h2 class="article__title">Find your muse</h2>
         <div class="article__circle">
           <p class="article__circle--html circle">Find your learning space</p>
           <p></p>
           <p class="article__circle--css circle">Set up your laptop</p>
-          <p class="article__circle--js circle">Join a community </p>
+          <p class="article__circle--js circle">Join a community</p>
           <p></p>
-          <p class="article__circle--db circle">Start practicing </p>
+          <p class="article__circle--db circle">Start practicing</p>
         </div>
       </article>
 
       <!-- second -->
-      <article class="youCanGoTheDistance" id = "youCanGoTheDistance">
+      <article class="youCanGoTheDistance" id="youCanGoTheDistance">
         <h2 class="article__title">You can go the distance</h2>
         <div class="article__circle">
           <p class="article__circle--html circle">HTML</p>
@@ -69,7 +82,9 @@
       <div class="EveryMile" id="EveryMile">
         <h2 class="article__title">Every mile is worth your while</h2>
         <div class="article__circle">
-          <p class="article__circle--html circle">Get comfortable with chosen tools</p>
+          <p class="article__circle--html circle">
+            Get comfortable with your tools
+          </p>
           <p></p>
           <p class="article__circle--css circle">Don't despair</p>
           <p class="article__circle--js circle">Find your network</p>
@@ -113,27 +128,28 @@
           </marker>
         </defs>
       </svg>
-      <!-- sliders -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-      <!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
-  </div>
- 
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
     </main>
+
+    <!-- SWIPER SLIDER -->
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
     <footer>
       <div class="wave-bottom">
         <svg
@@ -150,5 +166,11 @@
       </div>
       <p>&copy;Team1: Alisa, Dejan, Sarah "From 0 to Hero"</p>
     </footer>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- swiper commands -->
+    <script src="/swiperCommands.js"></script>
   </body>
 </html>
