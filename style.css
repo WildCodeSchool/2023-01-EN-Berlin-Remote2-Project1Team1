@@ -25,6 +25,7 @@ ul {
 text-decoration: none;
 color: black;
 }
+
 .nav__link:hover{
   color: antiquewhite;
 }
