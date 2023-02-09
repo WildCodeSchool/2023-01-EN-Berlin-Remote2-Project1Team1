@@ -1,0 +1,22 @@
+#back__to--top {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  width: 2rem;
+  height: 2rem;
+  margin: auto;
+  background-color: white;
+  -webkit-box-shadow: 10px -50px 50px -30px rgba(0, 0, 0, 0.2),
+    10px 11px 19px 0px rgba(0, 0, 0, 0.18);
+  box-shadow: 10px -50px 50px -30px rgba(0, 0, 0, 0.2),
+    10px 11px 19px 0px rgba(0, 0, 0, 0.18);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#back__to--top:active {
+  width: 2.5rem;
+  height: 2.5rem;
+}

@@ -32,6 +32,7 @@ ul {
 
 .nav__link:hover {
   color: antiquewhite;
+  cursor: pointer;
 }
 /* HEADER */
 .opaque {
