@@ -29,20 +29,16 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    font-size: 0;
 }
-.html:hover{
-  background-image: url("assets/html-logo.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  cursor: pointer;
-}
+
 .css:hover{
   background-image: url("assets/css-logo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
+  font-size: 0;
 }
 .js:hover{
   background-image: url("assets/js-logo.jpg");
@@ -50,6 +46,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
+  font-size: 0;
 }
   .nodeJS:hover{
     background-image: url("assets/nodeJS-logo.jpg");
@@ -57,6 +54,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    font-size: 0;
   }
     .php:hover{
       background-image: url("assets/php-logo.jpg");
@@ -65,6 +63,7 @@ html {
       background-size: cover;
       background-color: white;
       cursor: pointer;
+      font-size: 0;
     }
     .java:hover{
       background-image: url("assets/java-logo.jpg");
@@ -72,6 +71,7 @@ html {
       background-repeat: no-repeat;
       background-size: cover;
       cursor: pointer;
+      font-size: 0;
     }
 .bubble__link {
     text-decoration: none;
