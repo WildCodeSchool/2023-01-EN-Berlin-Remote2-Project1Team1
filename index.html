@@ -10,31 +10,24 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"rel="stylesheet"/>
     <!-- swiper css -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
   </head>
   <body>
     <nav>
       <ul>
-        <li><a class="nav__link" href="#findYourMuse">Find your muse</a></li>
-        <li>
-          <a class="nav__link" href="#youCanGoTheDistance"
-            >You can go the distance</a
-          >
-        </li>
-        <li>
-          <a class="nav__link" href="#EveryMile"
-            >Every mile is worth your while</a
-          >
-        </li>
+        <li><a class="nav__link" href="#findYourMuse">Find muse</a></li>
+        <li><a class="nav__link" href="#youCanGoTheDistance">Go the distance</a></li>
+        <li><a class="nav__link" href="#EveryMile">Every mile</a></li>
       </ul>
+      <div id="scroll__here">
+      </div>
+      <a href="#scroll__here" class = "show__btt" id="back__to--top">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="90-Arrow Up">
+        <path d="m15.29 10.29-8 8L8.7 19.7l7.3-7.29 7.29 7.29 1.41-1.41-8-8a1 1 0 0 0-1.41 0z"/></g></svg></a>
+      
     </nav>
     <header>
       <div class="opaque">
@@ -55,7 +48,7 @@
           <p class="article__circle--css circle">Set up your laptop</p>
           <p class="article__circle--js circle">Join a community</p>
           <p></p>
-          <p class="article__circle--db circle">Start practicing</p>
+          <p class="article__circle--db practice circle">Start practicing</p>
         </div>
       </article>
 
@@ -63,12 +56,16 @@
       <article class="youCanGoTheDistance" id="youCanGoTheDistance">
         <h2 class="article__title">You can go the distance</h2>
         <div class="article__circle">
-          <p class="article__circle--html circle">HTML</p>
+          <p class="article__circle--html circle"><a class="html__link" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</p></a>
           <p></p>
           <p class="article__circle--css circle">CSS</p>
           <p class="article__circle--js test circle">JavaScript</p>
           <p></p>
-          <p class="article__circle--db circle">Databases (Backend)</p>
+          <p class="article__circle--db circle">Node JS</p>
+          <p></p>
+          <p class="article__circle--html php circle">PHP</p>
+          <p></p>
+          <p class="article__circle--java java circle">Java</p>
         </div>
       </article>
 
@@ -76,14 +73,16 @@
       <div class="EveryMile" id="EveryMile">
         <h2 class="article__title">Every mile is worth your while</h2>
         <div class="article__circle">
-          <p class="article__circle--html circle">
+          <p class="article__circle--html circle getComfortable">
             Get comfortable with your tools
           </p>
           <p></p>
           <p class="article__circle--css circle">Don't despair</p>
           <p class="article__circle--js circle">Find your network</p>
           <p></p>
-          <p class="article__circle--db circle">Continue learning (forever)</p>
+          <p class="article__circle--db forever circle">
+            Continue learning (forever)
+          </p>
         </div>
       </div>
 
