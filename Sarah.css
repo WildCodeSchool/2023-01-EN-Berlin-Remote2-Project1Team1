@@ -1,10 +1,7 @@
 .swiper-slide {
-    border-radius: 10%;
+  border-radius: 10%;
 }
 #slide1 {
-    
-   
-    
 }
 /*
 .slide_img {
@@ -13,18 +10,15 @@
 }*/
 
 .slide-img {
-    display: grid;
-    justify-content: center;
-    width: 100%;
-  }
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
 .slide-img img {
   height: 200px;
   width: 450px;
-    
-
-    
-  }
+}
 
 .slide-text h6 {
-    size: 24px;
-  }
+  size: 24px;
+}

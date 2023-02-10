@@ -24,6 +24,57 @@
 }
 
 @media screen and (max-width: 1020px) {
-  body {
+  .circle {
+    width: calc(50px + 1.2vw);
+    height: calc(50px + 1.2vw);
   }
+  .java {
+    left: -30px;
+    bottom: 150px;
+  }
+
+  .forever {
+    left: 250px;
+    bottom: 35%;
+  }
+
+  .despair {
+    position: absolute;
+    left: 150px;
+    top: 200px;
+  }
+
+  .practice {
+    bottom: 70%;
+  }
+
+  .EveryMile h2 {
+    left: -50px;
+    font-size: calc(11px + 0.7vw);
+  }
+
+  .html {
+    position: absolute;
+    right: 30px;
+    top: 250px;
+  }
+
+  .php {
+    position: absolute;
+    left: 60px;
+    top: 500px;
+  }
+
+  .youCanGoTheDistance h2 {
+    left: 65px;
+  }
+
+  .join {
+    position: absolute;
+    top: 250px;
+    left: -100px;
+  }
+}
+
+@media screen and (max-width: 670px) {
 }
