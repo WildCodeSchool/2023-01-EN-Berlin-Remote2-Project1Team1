@@ -1,3 +1,4 @@
+/* Scroll Up arrow */
 #back__to--top {
   position: fixed;
   z-index: 1;
@@ -21,16 +22,60 @@ html {
   width: 2.5rem;
   height: 2.5rem;
 }
+/* Icons on hover */
+.html:hover{
+    background-image: url("assets/html-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    font-size: 0;
+}
 
-.article__circle--html:hover {
-  background-image: url("assets/html-logo.jpg");
+.css:hover{
+  background-image: url("assets/css-logo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
+  font-size: 0;
 }
-
-.html__link {
-  text-decoration: none;
-  color: black;
+.js:hover{
+  background-image: url("assets/js-logo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  font-size: 0;
 }
+  .nodeJS:hover{
+    background-image: url("assets/nodeJS-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    font-size: 0;
+  }
+    .php:hover{
+      background-image: url("assets/php-logo.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: white;
+      cursor: pointer;
+      font-size: 0;
+    }
+    .java:hover{
+      background-image: url("assets/java-logo.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+      font-size: 0;
+    }
+.bubble__link {
+    text-decoration: none;
+    color: black;
+  }
+  
+ 
