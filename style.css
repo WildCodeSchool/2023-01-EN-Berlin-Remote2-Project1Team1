@@ -43,6 +43,7 @@ ul {
   min-height: 500px;
   position: relative;
   isolation: isolate;
+  font-size: calc(10px + 0.5vw);
 }
 
 .opaque::after {
@@ -62,7 +63,7 @@ main {
   position: relative;
 }
 
-/* FIND YOUR MUSE SECTION */
+/* Section parts */
 .findYourMuse {
   position: absolute;
   left: 100px;
@@ -71,7 +72,7 @@ main {
 .youCanGoTheDistance {
   position: absolute;
   right: 30px;
-  top: 22%;
+  top: 15%;
 }
 
 .EveryMile {
@@ -81,7 +82,7 @@ main {
 }
 
 .article__title {
-  font-size: 2rem;
+  font-size: calc(14px + 0.7vw);
   padding: 20px;
   margin: 20px;
   position: relative;
@@ -103,13 +104,14 @@ main {
 /* THE BUBBLE  */
 .circle {
   border: 1px solid rgb(130, 124, 124);
-  width: 100px;
-  height: 100px;
+  width: calc(80px + 1.4vw);
+  height: calc(80px + 1.4vw);
   border-radius: 50%;
   display: grid;
   justify-content: center;
   align-content: center;
   transition: all 1s ease-in-out;
+  text-align: center;
 }
 
 .test {
@@ -153,16 +155,13 @@ main {
   grid-column-end: 3;
 }
 
-@media screen and (max-width: 1000px) {
-  .findYourMuse {
-    position: absolute;
-    top: 100%;
-    left: 10px;
+@media screen and (max-width: 1200px) {
+  .circle {
+    font-size: calc(9px + 0.5vw);
   }
 
-  .circle {
-    width: 50px;
-    height: 50px;
+  .article__title {
+    font-size: 9px + 0.5vw;
   }
 }
 

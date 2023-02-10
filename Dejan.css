@@ -1,0 +1,29 @@
+.getComfortable {
+  font-size: 1rem;
+}
+
+/* changing buble positions */
+.java {
+  position: absolute;
+  left: -240px;
+  bottom: 30%;
+}
+
+.practice {
+  position: absolute;
+  bottom: 10%;
+  left: calc(200px - 0.5vw);
+}
+@media screen and (max-width: 1245px) {
+  .forever {
+    position: absolute;
+    bottom: 20%;
+    left: 400px;
+    transition: all 1s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  body {
+  }
+}
