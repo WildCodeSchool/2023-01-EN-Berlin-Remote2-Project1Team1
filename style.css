@@ -169,8 +169,8 @@ main {
 /* MAIN END  */
 
 /* Footer */
-footer > p {
-  background-color: #aa998f;
+footer p {
+  background-color: #D8D8D8;
 }
 .wave-bottom {
   bottom: 0;
@@ -188,7 +188,7 @@ footer > p {
 }
 
 .wave-bottom .shape-fill {
-  fill: #aa998f;
+  fill: #D8D8D8;
 }
 
 .swiper {

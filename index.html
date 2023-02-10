@@ -13,11 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"rel="stylesheet"/>
     <!-- swiper css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-     <!-- jQuery -->
-    <script
-  src="https://code.jquery.com/jquery-3.6.3.min.js"
-  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-  crossorigin="anonymous"></script>
+
   </head>
   <body>
     <nav>
@@ -31,30 +27,7 @@
       <a href="#scroll__here" class = "show__btt" id="back__to--top">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="90-Arrow Up">
         <path d="m15.29 10.29-8 8L8.7 19.7l7.3-7.29 7.29 7.29 1.41-1.41-8-8a1 1 0 0 0-1.41 0z"/></g></svg></a>
-      <script>
-        $(function(){
-
-          function showBackToTop(){
-              $('#back__to--top'.addClass('show__btt'));
-            };
-
-          function hideBackToTop(){
-              $('#back__to--top'.removeClass('show__btt'));
-            };
-
-          function checkScrollPos(){
-            if ($(window).scrollTop() >= 7) {
-                showBackToTop();
-                } else {
-                hideBackToTop();
-                }}
-
-            $(window).on('scroll', function() {
-            checkScrollPos();
-            });
-            checkScrollPos();
-          });
-        </script>
+      
     </nav>
     <header>
       <div class="opaque">
@@ -83,7 +56,7 @@
       <article class="youCanGoTheDistance" id="youCanGoTheDistance">
         <h2 class="article__title">You can go the distance</h2>
         <div class="article__circle">
-          <p class="article__circle--html circle">HTML</p>
+          <p class="article__circle--html circle"><a class="html__link" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</p></a>
           <p></p>
           <p class="article__circle--css circle">CSS</p>
           <p class="article__circle--js test circle">JavaScript</p>
