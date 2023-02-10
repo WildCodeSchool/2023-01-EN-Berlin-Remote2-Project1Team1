@@ -1,0 +1,30 @@
+.swiper-slide {
+    border-radius: 10%;
+}
+#slide1 {
+    
+   
+    
+}
+/*
+.slide_img {
+    display: block;
+    width: 10px;
+}*/
+
+.slide-img {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+  }
+.slide-img img {
+  height: 200px;
+  width: 450px;
+    
+
+    
+  }
+
+.slide-text h6 {
+    size: 24px;
+  }
