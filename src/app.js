@@ -26,8 +26,23 @@ overlay.addEventListener("click", openClose);
 // add popUp picture
 const overlay1 = document.querySelector(".overlay");
 const findYourMuse = document.querySelector(".findYourMusePopUp");
-const popUpPicture = document.querySelector(".popUpPicture");
+const popUpPicture1 = document.querySelector(".popUpPicture1");
 
 findYourMuse.addEventListener("click", function () {
-  popUpPicture.classList.toggle("hidden");
+  popUpPicture1.classList.toggle("hidden");
 });
+
+const youCanGoTheDistance = document.querySelector(".youCanGoTheDistance");
+const popUpPicture2 = document.querySelector(".popUpPicture2");
+
+youCanGoTheDistance.addEventListener("click", function () {
+  popUpPicture2.classList.toggle("hidden");
+});
+
+const everyMile = document.querySelector(".EveryMile");
+const popUpPicture3 = document.querySelector(".popUpPicture3");
+
+everyMile.addEventListener("click", function () {
+  popUpPicture3.classList.toggle("hidden");
+});
+

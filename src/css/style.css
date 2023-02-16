@@ -225,10 +225,27 @@ iframe {
   display: none;
 }
 
-.popUpPicture {
+.popUpPicture1 {
   width: 200px;
   position: absolute;
   top: 500px;
   left: 400px;
   z-index: 5;
 }
+
+.popUpPicture2 {
+  width: 200px;
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  z-index: 5;
+}
+
+.popUpPicture3 {
+  width: 400px;
+  position: absolute;
+  top: 1200px;
+  left: 600px;
+  z-index: 5;
+}
+
