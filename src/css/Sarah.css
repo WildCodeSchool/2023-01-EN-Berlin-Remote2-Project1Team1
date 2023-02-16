@@ -1,6 +1,16 @@
+.swiper {
+  width: 800px;
+  height: 500px;
+}
+
+.swiper-slide {
+  border: solid;
+}
+
 .swiper-slide {
   border-radius: 10%;
 }
+
 #slide1 {
 }
 /*
@@ -21,6 +31,7 @@
 }
 
 .slide-text h6 {
+  padding: 2rem;
   font-size: larger;
   text-align: center;
 }

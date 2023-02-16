@@ -36,7 +36,7 @@ ul {
 }
 /* HEADER */
 .opaque {
-  --bg-image: url("assets/pexels-andrew-neel-trip.jpg");
+  --bg-image: url("/assets/pexels-andrew-neel-trip.jpg");
   --bg-image-opacity: 0.65;
   text-align: center;
   display: grid;
@@ -189,15 +189,6 @@ footer p {
 
 .wave-bottom .shape-fill {
   fill: #d8d8d8;
-}
-
-.swiper {
-  width: 600px;
-  height: 300px;
-}
-
-.swiper-slide {
-  border: solid;
 }
 
 /* POPUP WINDOW CSS PROPERTYS */
