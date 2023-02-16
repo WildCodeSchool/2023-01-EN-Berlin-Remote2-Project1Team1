@@ -1,11 +1,12 @@
 .swiper {
   width: 800px;
   height: 500px;
+  margin-bottom: 100px;
 }
 
 .swiper-slide {
   /*border: solid;*/
-  background-color: #d8e4e9;
+  background-color: #eef4f7;
 }
 
 .swiper-slide {
@@ -35,5 +36,7 @@
   text-align: center;
   size: 2px;
 }
+
+
 
 

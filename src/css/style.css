@@ -170,7 +170,7 @@ main {
 
 /* Footer */
 footer p {
-  background-color: #d8d8d8;
+  background-color: /*#d8d8d8*/ #d9e0e3;
 }
 .wave-bottom {
   bottom: 0;
@@ -188,7 +188,7 @@ footer p {
 }
 
 .wave-bottom .shape-fill {
-  fill: #d8d8d8;
+  fill: /*#d8d8d8*/#d9e0e3;
 }
 
 /* POPUP WINDOW CSS PROPERTYS */
@@ -252,3 +252,11 @@ iframe {
   border-radius: 50%;
 }
 
+main  {
+  background-color: #f5fcff;
+
+}
+body {
+  background-color: #f5fcff;
+
+}
