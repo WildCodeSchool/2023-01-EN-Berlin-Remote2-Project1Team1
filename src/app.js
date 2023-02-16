@@ -24,10 +24,32 @@ variable.addEventListener("click", openClose);
 overlay.addEventListener("click", openClose);
 
 // add popUp picture
-const overlay1 = document.querySelector(".overlay");
-const findYourMuse = document.querySelector(".findYourMusePopUp");
-const popUpPicture = document.querySelector(".popUpPicture");
+// const overlay1 = document.querySelector(".overlay");
+// const findYourMuse = document.querySelector(".findYourMusePopUp");
+// const popUpPicture = document.querySelector(".popUpPicture");
 
-findYourMuse.addEventListener("click", function () {
-  popUpPicture.classList.toggle("hidden");
-});
+// findYourMuse.addEventListener("click", function () {
+//   popUpPicture.classList.toggle("hidden");
+// });
+
+// INTERSEPTING OBSERVER API
+const header = document.querySelector("header");
+const arrow = document.querySelector(".show__btt");
+
+const arrowFunc = function (enteier) {
+  // console.log(enteier);
+  const [entry] = enteier;
+  // console.log(entry);
+
+  if (!entry.isIntersecting) {
+    arrow.style.display = "block";
+  } else arrow.style.display = "none";
+};
+
+const obsOption = {
+  root: null,
+  threshold: 0.4, // 0.1 = 10% , 0.2 = 20% (before Intersept)
+};
+
+const headerObserver = new IntersectionObserver(arrowFunc, obsOption);
+headerObserver.observe(header);
