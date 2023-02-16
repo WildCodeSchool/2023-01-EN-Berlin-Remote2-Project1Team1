@@ -10,37 +10,55 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- swiper css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 
     <script defer type="module" src="./src/app.js"></script>
   </head>
   <body>
-
     <!-- THE POPUP WINDOW HTML STRUCTURE -->
-    <div class="popup hidden"><iframe class="hidden" src="https://www.chartjs.org/docs/latest/axes/"  frameborder=""></iframe></div>
+    <div class="popup hidden">
+      <iframe frameborder="0"></iframe>
+    </div>
     <div class="overlay hidden"></div>
-    <img class="popUpPicture1 hidden" src="./assets/phil.jpg" alt="phil">
-    <img class="popUpPicture2 hidden" src="./assets/pegasus.jpg" alt="pegasus">
-    <img class="popUpPicture3 hidden" src="./assets/horizon.jpg" alt="horizon">
+    <img class="popUpPicture1 hidden" src="./assets/phil.jpg" alt="phil" />
+    <img
+      class="popUpPicture2 hidden"
+      src="./assets/pegasus.jpg"
+      alt="pegasus"
+    />
+    <img
+      class="popUpPicture3 hidden"
+      src="./assets/horizon.jpg"
+      alt="horizon"
+    />
     <!-- THE POPUP WINDOW HTML STRUCTURE END -->
-    
-    
-    <header>
 
+    <header>
       <nav>
         <ul>
           <li><a class="nav__link" href="#findYourMuse">Find muse</a></li>
-          <li><a class="nav__link" href="#youCanGoTheDistance">Go the distance</a></li>
+          <li>
+            <a class="nav__link" href="#youCanGoTheDistance">Go the distance</a>
+          </li>
           <li><a class="nav__link" href="#EveryMile">Every mile</a></li>
         </ul>
-        <div id="scroll__here">
-        </div>
-        <a href="#scroll__here" class = "show__btt" id="back__to--top">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="90-Arrow Up">
-          <path d="m15.29 10.29-8 8L8.7 19.7l7.3-7.29 7.29 7.29 1.41-1.41-8-8a1 1 0 0 0-1.41 0z"/></g></svg></a>
-        
+        <div id="scroll__here"></div>
+        <a href="#scroll__here" class="show__btt" id="back__to--top">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+            <g data-name="90-Arrow Up">
+              <path
+                d="m15.29 10.29-8 8L8.7 19.7l7.3-7.29 7.29 7.29 1.41-1.41-8-8a1 1 0 0 0-1.41 0z"
+              />
+            </g></svg
+        ></a>
       </nav>
 
       <div class="opaque">
@@ -56,7 +74,7 @@
       <article class="findYourMuse" id="findYourMuse">
         <h2 class="article__title findYourMusePopUp">Find your muse</h2>
         <div class="article__circle">
-          <p class="article__circle--html brejj circle">Find your learning space</p>
+          <p class="article__circle--html circle">Find your learning space</p>
           <p></p>
           <p class="article__circle--css circle">Set up your laptop</p>
           <p class="article__circle--js circle join">Join a community</p>
@@ -67,18 +85,20 @@
 
       <!-- second -->
       <article class="youCanGoTheDistance" id="youCanGoTheDistance">
-        <h2 class="article__title youCanGoTheDistance">You can go the distance</h2>
+        <h2 class="article__title youCanGoTheDistanceTitle">
+          You can go the distance
+        </h2>
         <div class="article__circle">
-          <p class="article__circle--html html circle"><a class="bubble__link" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</p></a>
+          <p class="article__circle--html html circle">HTML</p>
           <p></p>
-          <p class="article__circle--css circle css"><a class="bubble__link" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</p></a>
-          <p class="article__circle--js test circle js"><a class="bubble__link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</p></a>
+          <p class="article__circle--css circle css">CSS</p>
+          <p class="article__circle--js test circle js">JavaScript</p>
           <p></p>
-          <p class="article__circle--db circle nodeJS"><a class="bubble__link" href="https://nodejs.org/en/about/" target="_blank">Node JS</p></a>
+          <p class="article__circle--db circle nodeJS">Node.JS</p>
           <p></p>
-          <p class="article__circle--html php circle"><a class="bubble__link" href="https://www.w3schools.com/php/php_intro.asp" target="_blank">PHP</p></a>
+          <p class="article__circle--html php circle">PHP</p>
           <p></p>
-          <p class="article__circle--java java circle"><a class="bubble__link" href="https://www.w3schools.com/java/java_intro.asp" target="_blank">Java</p></a>
+          <p class="article__circle--java java circle">Java</p>
         </div>
       </article>
 
@@ -142,76 +162,92 @@
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-  
+
         <div class="swiper-slide">
-        <div class="slide1">
-        <div class="slide-img">
-          <img src="assets/pexels-fauxels-devops.jpg" alt="two macs">
+          <div class="slide1">
+            <div class="slide-img">
+              <img src="assets/pexels-fauxels-devops.jpg" alt="two macs" />
+            </div>
+            <div class="slide-text">
+              <h6>DevOps</h6>
+              <p>
+                "DevOps Engineer works with developers and the IT staff to
+                oversee the code releases. They are either developers who get
+                interested in deployment and network operations or sysadmins who
+                have a passion for scripting and coding and move into the
+                development side where they can improve the planning of test and
+                deployment." -Edureka.co
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="slide-text">
-          <h6>DevOps</h6>
-          <p>"DevOps Engineer works with developers and the IT staff to oversee the code releases. 
-            They are either developers who get interested in deployment and network operations or sysadmins who have a 
-            passion for scripting and coding and move into the development side where they can improve the planning of test and deployment." -Edureka.co</p>
+
+        <div class="swiper-slide">
+          <div class="slide2">
+            <div class="slide-img">
+              <img src="assets/pexels-pixabay-fe.jpg" alt="frontend" />
+            </div>
+            <div class="slide-text">
+              <h6>Frontend Dev</h6>
+              <p>
+                "A Front-End Developer is someone who creates websites and web
+                applications. The Front-End Developer creates things that the
+                user sees. It is a popular job, and everyone can become a
+                Front-End Developer." -W3Schools.com
+              </p>
+            </div>
+          </div>
         </div>
+
+        <div class="swiper-slide">
+          <div class="slide3">
+            <div class="slide-img">
+              <img src="assets/pexels-josh-sorenson-backe.jpg" alt="backend" />
+            </div>
+            <div class="slide-text">
+              <h6>Backend Dev</h6>
+              <p>
+                "Back-end developers are the experts who build and maintain the
+                mechanisms that process data and perform actions on websites.
+                Unlike front-end developers, who control everything you can see
+                on a website, back-end developers are involved in data storage,
+                security, and other server-side functions that you cannot see."
+                -Coursera.org
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide4">
+            <div class="slide-img">
+              <img
+                src="assets/pexels-guillaume-meurice-fulls.jpg"
+                alt="full stack"
+              />
+            </div>
+            <div class="slide-text">
+              <h6>Full Stack Dev</h6>
+              <p>
+                "A full stack web developer is a person who can develop both
+                client and server software. In addition to mastering HTML and
+                CSS, he/she also knows how to: Program a browser (like using
+                JavaScript, jQuery, Angular, or Vue) Program a server (like
+                using PHP, ASP, Python, or Node) Program a database (like using
+                SQL, SQLite, or MongoDB)." -W3Schools.com
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
       </div>
     </div>
-
-    <div class="swiper-slide">
-      <div class="slide2">
-        <div class="slide-img">
-          <img src="assets/pexels-pixabay-fe.jpg" alt="frontend">
-        </div>
-        <div class="slide-text">
-          <h6>Frontend Dev</h6>
-          <p>"A Front-End Developer is someone who creates websites and web applications.
-            The Front-End Developer creates things that the user sees.
-            It is a popular job, and everyone can become a Front-End Developer." -W3Schools.com</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="swiper-slide">
-      <div class="slide3">
-        <div class="slide-img">
-          <img src="assets/pexels-josh-sorenson-backe.jpg" alt="backend">
-        </div>
-        <div class="slide-text">
-          <h6>Backend Dev</h6>
-          <p>"Back-end developers are the experts who build and maintain the mechanisms that process data and perform actions on websites. 
-            Unlike front-end developers, who control everything you can see on a website, back-end developers are involved in data storage, 
-            security, and other server-side functions that you cannot see." -Coursera.org</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="swiper-slide">
-      <div class="slide4">
-        <div class="slide-img">
-          <img src="assets/pexels-guillaume-meurice-fulls.jpg" alt="full stack">
-        </div>
-        <div class="slide-text">
-          <h6>Full Stack Dev</h6>
-          <p>"A full stack web developer is a person who can develop both client and server software.
-            In addition to mastering HTML and CSS, he/she also knows how to:
-            Program a browser (like using JavaScript, jQuery, Angular, or Vue)
-            Program a server (like using PHP, ASP, Python, or Node)
-            Program a database (like using SQL, SQLite, or MongoDB)." -W3Schools.com</p>
-        </div>
-      </div>
-      </div>
-      
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
-      <!-- If we need scrollbar -->
-      <!-- <div class="swiper-scrollbar"></div> -->
-    </div>
-  </div>
-
-
 
     <footer>
       <div class="wave-bottom">
@@ -230,15 +266,9 @@
       <p>&copy;Team1: Alisa, Dejan, Sarah "From 0 to Hero"</p>
     </footer>
 
-
-
-
-
-
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- swiper commands -->
     <script src="./src/swiperCommands.js"></script>
- 
   </body>
 </html>
