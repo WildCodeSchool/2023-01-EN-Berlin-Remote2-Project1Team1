@@ -4,30 +4,25 @@
 }
 
 .swiper-slide {
-  border: solid;
+  /*border: solid;*/
+  background-color: #d8e4e9;
 }
 
 .swiper-slide {
-  border-radius: 10%;
+  border-radius: 15%;
 }
 
-#slide1 {
-}
-/*
-.slide_img {
-    display: block;
-    width: 10px;
-}*/
 
 .slide-img {
-  height: 150px;
+  height: 300px;
 }
 
 .slide-img img {
   object-fit: cover;
   height: 100%;
   width: 100%;
-  border-radius: 10%;
+  border-radius: 16%;
+  
 }
 
 .slide-text h6 {
@@ -40,3 +35,5 @@
   text-align: center;
   size: 2px;
 }
+
+
