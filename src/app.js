@@ -22,3 +22,12 @@ const openClose = function () {
 // I added also on overlay (popup background) eventListener becouse when someone click on the background to exit from the popUp :D
 variable.addEventListener("click", openClose);
 overlay.addEventListener("click", openClose);
+
+// add popUp picture
+const overlay1 = document.querySelector(".overlay");
+const findYourMuse = document.querySelector(".findYourMusePopUp");
+const popUpPicture = document.querySelector(".popUpPicture");
+
+findYourMuse.addEventListener("click", function () {
+  popUpPicture.classList.toggle("hidden");
+});
