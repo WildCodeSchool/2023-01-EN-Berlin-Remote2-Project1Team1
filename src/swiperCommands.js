@@ -7,7 +7,7 @@ const swiper = new Swiper(".swiper", {
   coverflowEffect: {
     depth: 100,
     modifier: 1,
-    slideShadows: false,
+    slideShadows: true,
   },
 
   navigation: {
