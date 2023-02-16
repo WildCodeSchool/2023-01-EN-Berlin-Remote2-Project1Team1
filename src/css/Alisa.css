@@ -22,6 +22,17 @@ html {
   width: 2.5rem;
   height: 2.5rem;
 }
+
+/* Header logo */
+/* 
+.header__logo img{
+  padding-left: 0;
+  padding-top: 0;
+  max-width: 30%;
+  max-height: 30%;
+  object-fit: contain;
+}*/
+
 /* Icons on hover */
 .html:hover {
   background-image: url("/assets/html-logo.jpg");
@@ -76,4 +87,33 @@ html {
 .bubble__link {
   text-decoration: none;
   color: black;
+}
+.black__screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+    z-index: 6;
+}
+
+.logo-circle {
+  position: absolute;
+  z-index: 6;
+}
+
+.logo-text {
+  position: absolute;
+  z-index: 7;
+}
+.spin {
+  animation: spin 15s linear infinite;
+}
+
+@keyframes spin {
+ transform: rotate(360deg); 
 }

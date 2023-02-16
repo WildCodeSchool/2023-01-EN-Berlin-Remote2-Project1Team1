@@ -109,3 +109,7 @@ iFrameSection("JavaScript");
 iFrameSection("Node.JS");
 iFrameSection("PHP");
 iFrameSection("Java");
+
+document.querySelector('.black__screen').addEventListener('click', function() {
+  this.style.display = 'none';
+});
