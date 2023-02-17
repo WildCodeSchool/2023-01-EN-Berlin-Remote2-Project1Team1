@@ -107,7 +107,7 @@ main {
 
 /* THE BUBBLE  */
 .circle {
-  border: 1px solid rgb(130, 124, 124);
+  border: 1px solid rgb(123, 143, 161);
   width: calc(80px + 1.4vw);
   height: calc(80px + 1.4vw);
   border-radius: 50%;
