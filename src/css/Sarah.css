@@ -68,3 +68,7 @@
 		transform: translateX(-6px) rotate(-1.2deg);
 	}
 }
+
+.article__title:hover::after {
+  animation: myAnim 2s ease 0s 2 normal forwards;
+}
