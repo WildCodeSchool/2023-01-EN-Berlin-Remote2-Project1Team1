@@ -46,14 +46,6 @@ everyMile.addEventListener("click", function () {
   popUpPicture3.classList.toggle("hidden");
 });
 
-// const overlay1 = document.querySelector(".overlay");
-// const findYourMuse = document.querySelector(".findYourMusePopUp");
-// const popUpPicture = document.querySelector(".popUpPicture");
-
-// findYourMuse.addEventListener("click", function () {
-//   popUpPicture.classList.toggle("hidden");
-// });
-
 // INTERSEPTING OBSERVER API
 const header = document.querySelector("header");
 const arrow = document.querySelector(".show__btt");
@@ -110,6 +102,6 @@ iFrameSection("Node.JS");
 iFrameSection("PHP");
 iFrameSection("Java");
 
-document.querySelector('.black__screen').addEventListener('click', function() {
-  this.style.display = 'none';
+document.querySelector(".black__screen").addEventListener("click", function () {
+  this.style.display = "none";
 });

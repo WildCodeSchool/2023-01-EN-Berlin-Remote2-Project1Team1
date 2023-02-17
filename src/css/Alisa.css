@@ -98,7 +98,7 @@ html {
   display: grid;
   align-items: center;
   justify-items: center;
-    z-index: 6;
+  z-index: 6;
 }
 
 .logo-circle {
@@ -111,9 +111,5 @@ html {
   z-index: 7;
 }
 .spin {
-  animation: spin 15s linear infinite;
-}
-
-@keyframes spin {
- transform: rotate(360deg); 
+  animation: spin 15s infinite linear;
 }
