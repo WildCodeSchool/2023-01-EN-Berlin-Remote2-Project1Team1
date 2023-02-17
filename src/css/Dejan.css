@@ -25,12 +25,12 @@
 
 @media screen and (max-width: 1020px) {
   .circle {
-    width: calc(50px + 1.2vw);
-    height: calc(50px + 1.2vw);
+    width: calc(70px + 1.2vw) !important ;
+    height: calc(70px + 1.2vw) !important;
   }
   .java {
-    left: -30px;
-    bottom: 150px;
+    left: -40px;
+    bottom: 100px;
   }
 
   .forever {
@@ -55,8 +55,8 @@
 
   .html {
     position: absolute;
-    right: 30px;
-    top: 250px;
+    right: 0px;
+    top: 230px;
   }
 
   .php {
@@ -78,7 +78,12 @@
 
 /* FROM HERE I DISCORE THAT I CAN CHANGE WITH NEGATIVE MARGIN */
 @media screen and (max-width: 768px) {
+  .circle {
+    width: calc(60px + 1.2vw) !important ;
+    height: calc(60px + 1.2vw) !important;
+  }
   /* you can go to the distance bubles  */
+
   .css {
     margin: 25px -30px;
   }
@@ -87,26 +92,26 @@
   }
 
   .js {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 150px;
   }
 
   .nodeJS {
-    margin: -80px 0 0 0;
+    margin: -80px 0 0 80px;
   }
   .php {
-    margin: -136px 0 0 -65px;
+    margin: -100px 0 0 80px;
   }
   .java {
-    margin: 0 0 350px 40px;
+    margin: 0 0 250px 50px;
   }
 
   /* EVERY MILE SECTION */
   .network {
-    margin: -130px 0 0 0;
+    margin: -80px 0 0 0;
   }
 
   .forever {
-    margin: 0 0 30px -100px;
+    margin: 0 0 -20px -100px;
   }
 
   .despair {
