@@ -117,4 +117,112 @@
   .despair {
     margin-top: -60px;
   }
+
+  .logo-circle {
+    width: 320px;
+  }
+
+  .logo-text {
+    width: 200px;
+  }
+  .logo-circle {
+    width: 320px;
+  }
+
+  .logo-text {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .circle {
+    box-shadow: 0px 0px 0px 6px #7b8fa1, 0px 0px 0px 14px #bbbfca,
+      0px 0px 0px 18px #e8e8e8, 0px 0px 0px 21px #f4f4f2,
+      -17px -37px 25px -17px rgba(226, 216, 218, 0);
+  }
+
+  .circle {
+    max-width: calc(40px + 1.2vw) !important ;
+    max-height: calc(40px + 1.2vw) !important;
+  }
+  .article__circle p {
+    font-weight: 600;
+    font-size: 7px;
+    margin: 0 0 0 -80px;
+  }
+
+  .findYourMuse h2 {
+    margin: 0 0 0 -100px;
+  }
+
+  .laptop {
+    margin: 0 0 0 -100px !important;
+  }
+  .practice {
+    margin: 0 0 0 -150px !important;
+  }
+
+  .join {
+    margin: -100px 0 0 120px !important;
+  }
+
+  .article__title {
+    font-size: calc(10px + 0.7vw) !important;
+  }
+  .youCanGoTheDistanceTitle {
+    font-size: calc(8px + 0.7vw) !important;
+  }
+
+  .css {
+    margin: 0 0 0 40px !important;
+  }
+
+  .html {
+    margin-top: -50px !important;
+  }
+
+  .nodeJS {
+    margin-top: -130px !important;
+    margin-left: -30px !important;
+  }
+
+  .js {
+    margin-left: 30px !important;
+  }
+
+  .php {
+    margin: -265px 0 0 40px !important;
+  }
+  .java {
+    margin: 0 0 -20px 220px !important;
+  }
+
+  .EveryMile h2 {
+    font-size: 11px !important;
+    margin-top: 80px;
+  }
+
+  .getComfortable {
+    margin-left: 20px !important;
+  }
+  .despair {
+    margin: -60px 0 0 -50px !important;
+  }
+
+  .network {
+    margin: -100px 100px 0 80px !important;
+  }
+  .forever {
+    margin-left: -20px !important;
+    margin-bottom: 70px !important;
+    animation: spin 10s infinite linear;
+  }
+
+  .logo-circle {
+    width: 320px;
+  }
+
+  .logo-text {
+    width: 200px;
+  }
 }

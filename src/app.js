@@ -39,7 +39,7 @@ youCanGoTheDistance.addEventListener("click", function () {
   popUpPicture2.classList.toggle("hidden");
 });
 
-const everyMile = document.querySelector(".EveryMile");
+const everyMile = document.querySelector(".EveryMile h2");
 const popUpPicture3 = document.querySelector(".popUpPicture3");
 
 everyMile.addEventListener("click", function () {

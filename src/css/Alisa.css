@@ -107,6 +107,7 @@ html {
 }
 
 .logo-text {
+  width: 320px;
   position: absolute;
   z-index: 7;
 }
