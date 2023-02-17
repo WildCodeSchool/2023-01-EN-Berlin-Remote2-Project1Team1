@@ -10,6 +10,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f5fcff;
 }
 
 /* NavBar */
@@ -106,7 +107,7 @@ main {
 
 /* THE BUBBLE  */
 .circle {
-  border: 1px solid rgb(130, 124, 124);
+  border: 1px solid rgb(123, 143, 161);
   width: calc(80px + 1.4vw);
   height: calc(80px + 1.4vw);
   border-radius: 50%;
@@ -176,7 +177,6 @@ footer p {
   font-size: smaller;
   padding-left: 1rem;
   padding-top: 5px;
-
 }
 .wave-bottom {
   bottom: 0;
@@ -194,7 +194,7 @@ footer p {
 }
 
 .wave-bottom .shape-fill {
-  fill: /*#d8d8d8*/#d9e0e3;
+  fill: /*#d8d8d8*/ #d9e0e3;
 }
 
 /* POPUP WINDOW CSS PROPERTYS */
@@ -226,7 +226,7 @@ iframe {
   background-color: aliceblue;
 }
 
-/* CLASS TO HIDE THE ELEMENTS THAT WE ARE YOUSING IN JS*/
+/* CLASS TO HIDE THE ELEMENTS THAT WE ARE USING IN JS*/
 .hidden {
   display: none;
 }
@@ -256,13 +256,4 @@ iframe {
   left: 600px;
   z-index: 5;
   border-radius: 50%;
-}
-
-main  {
-  background-color: #f5fcff;
-
-}
-body {
-  background-color: #f5fcff;
-
 }
