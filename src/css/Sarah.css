@@ -38,7 +38,7 @@
 }
 
 .circle {
-  animation: myAnim 2s ease 0s 2 normal forwards;
+  animation: myAnim 2s ease 0s 3 normal forwards;
   
 }
 @keyframes myAnim {
